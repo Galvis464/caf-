@@ -1,0 +1,95 @@
+/*Regla*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Cuerpo*/
+.body{
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium';
+}
+/*Contenido de la pagina*/
+#container{
+    width: 100%; 
+    margin: 0% auto;
+    border: 1px solid black;
+}
+/*Cabeza de pagina*/
+header{
+    background-image: url(Cu.jpg);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 200px;
+    font-size: 30px;
+    border-bottom: 3px solid black ;
+}
+/*menu*/
+nav{
+    background-color: lightblue;
+    height: 50px;
+    width: 100%;
+    border-bottom: 3px solid black ;
+}
+/*lista del menu*/
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+/*separador*/
+.clearfix{
+    clear: both;
+}
+/*Contenido principal*/
+#content{
+    float: left;
+    width: 80%;
+}
+/*lado derecho*/
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background-image: url(cafe\ -\ copia.jpg);
+    min-height: 6100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+/*pie de pagina*/
+footer{
+    border-top: 3px solid black;
+    background-color: rgb(75, 153, 44);
+    font-size: larger ;
+    text-align: center;
+    color: white;
+}
+/*propiedades de textos*/
+.li1{ 
+    color: darkred;
+    font-size: 25px;
+}
+.p1{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.t1{
+    text-align: center;
+    font-size: 50px;
+    color: darkred;
+}
+.l1{
+    font-size: 23px;
+    color: white;
+}
+.b2{
+    font-size: 25px;
+}
+/*imagenes*/
+.img1{
+    padding: 10px;
+    width: 950px;
+    height: 400px;
+    border-radius: 25px;
+}
